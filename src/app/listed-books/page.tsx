@@ -2,7 +2,7 @@
 
 
 
-import BookCard from '@/components/shared/BookCard';
+
 import ListedBookCard from '@/components/shared/ListedBookCard';
 import { Bookcontext } from '@/context/bookContext';
 import { iBook } from '@/type/bookType';
@@ -10,7 +10,7 @@ import React, { useContext, useState } from 'react';
 
 const ListedBooks = () => {
 
-    const { readBooks, wishlist } = useContext(Bookcontext)
+    const {  readBooks, wishlist } = useContext(Bookcontext)
 
 
 

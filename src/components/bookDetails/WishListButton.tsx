@@ -8,11 +8,11 @@ import { toast } from 'react-toastify';
 
 const WishListButton = ({book}:{book:iBook}) => {
 
-    const {    wishlist ,setwishlist}=useContext(Bookcontext)
+    const {    wishlist ,setWishlist}=useContext(Bookcontext)
 
 const handleAdToWish=()=>{
 
-setwishlist([...wishlist,book])
+setWishlist([...wishlist,book])
  toast.success(`You have read "${book.bookName}"`) 
 }
 
