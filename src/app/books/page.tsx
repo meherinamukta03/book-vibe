@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-import { iBook } from '@/type/bookType';
 import BookCard from '@/components/shared/BookCard';
+import { iBook } from '@/type/bookType';
 
 
 const getBooks = async () => {

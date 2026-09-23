@@ -1,6 +1,7 @@
 import ReadBooks from '@/components/bookDetails/ReadBooks';
 import WishListButton from '@/components/bookDetails/WishListButton';
 import { iBook } from '@/type/bookType';
+
 import Image from 'next/image';
 import React from 'react';
 
